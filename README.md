@@ -26,7 +26,7 @@ Contemporary media. Trove's newspaper digitisation runs to the mid-1950s for mos
 
 ```sh
 git clone https://github.com/jonobri/trover.git ~/Code/trover
-ln -s ~/Code/trover/skills/trove ~/.claude/skills/trove
+ln -s ~/Code/trover/skills/trover ~/.claude/skills/trover
 ```
 
 Requires [`shuck`](https://github.com/jonobri/shuck) on your `PATH` for the search step. Article retrieval needs only `curl`.

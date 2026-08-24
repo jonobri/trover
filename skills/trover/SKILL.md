@@ -1,5 +1,5 @@
 ---
-name: trove
+name: trover
 description: >-
   Search and retrieve from Trove, the National Library of Australia's digitised
   newspaper archive, without an API key. Covers the shuck-based search workaround
@@ -13,7 +13,7 @@ metadata:
   version: 1.0.0
 ---
 
-# Trove — searching the NLA newspaper archive without an API key
+# trover — searching the NLA newspaper archive without an API key
 
 Trove holds the National Library of Australia's digitised newspapers. Coverage is strong for colonial and provincial papers and runs to the mid-1950s for most titles, with some going later — *The Canberra Times* to 1995, *Tharunka* to 2010, various regional papers into the 2000s.
 
