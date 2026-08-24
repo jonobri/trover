@@ -1,6 +1,8 @@
-# trove-skill 📰
+# trover 📰
 
 **A Claude Code skill for searching Trove, the National Library of Australia's digitised newspaper archive — without an API key.**
+
+*Trover*: the old common-law action for recovering property that ended up in someone else's hands. Which is roughly the job.
 
 [Trove](https://trove.nla.gov.au) holds millions of digitised Australian newspaper pages, and it is the best primary source there is for dating an Australian word, checking a claim about colonial politics, or reading what people actually said about an event at the time.
 
@@ -23,8 +25,8 @@ Contemporary media. Trove's newspaper digitisation runs to the mid-1950s for mos
 ## Install
 
 ```sh
-git clone https://github.com/jonobri/trove-skill.git ~/Code/trove-skill
-ln -s ~/Code/trove-skill/skills/trove ~/.claude/skills/trove
+git clone https://github.com/jonobri/trover.git ~/Code/trover
+ln -s ~/Code/trover/skills/trove ~/.claude/skills/trove
 ```
 
 Requires [`shuck`](https://github.com/jonobri/shuck) on your `PATH` for the search step. Article retrieval needs only `curl`.
